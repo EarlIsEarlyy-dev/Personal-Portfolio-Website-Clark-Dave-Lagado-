@@ -918,6 +918,9 @@ nav {
 }
 
 /* ===== CONTACT ===== */
+.contact {
+    background: #b9b9b9;
+}
 .contact-card {
   background: var(--charcoal);
   border-radius: 20px;
@@ -1158,7 +1161,6 @@ footer {
     grid-template-columns: 1fr;
   }
   .hero-visual {
-    height: 320px;
     order: -1;
   }
   .about .wrap {
