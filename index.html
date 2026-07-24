@@ -49,7 +49,7 @@
           </p>
           <div class="hero-btns">
             <a href="#contact" class="btn btn-primary">Hire Me →</a>
-            <a href="#whatido" class="btn btn-outline">View Work Experience</a>
+            <a href="#experience" class="btn btn-outline">View Work Experience</a>
           </div>
           <div class="hero-features">
             <div class="hf-item">
@@ -149,7 +149,7 @@
     <section id="why">
       <div class="wrap">
         <div class="section-heading1"> 
-          <span>-What i can do </span>
+          <span>-What I can do </span>
         </div>
         <h2 class="section-title reveal">My Skills</h2>
         <p class="section-sub reveal">
@@ -300,8 +300,7 @@
         <span>-MY JOURNEY</span>
         <h2>Work Experience</h2>
         <p>
-          Professional experience as a Virtual Assistant in AIRBNB & PROPERTY
-          MANAGEMENT
+          Professional experience as a Virtual Assistant in Airbnb & Property Management
         </p>
       </div>
       <div class="timeline">
@@ -515,27 +514,30 @@
               </a>
             </div>
           </div>
-          <form id="contactForm" novalidate>
-            <div class="form-row">
-              <input type="text" name="name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-              />
+        <form id="contactForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
             </div>
-            <input type="text" name="subject" placeholder="Subject" required />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              required
-            ></textarea>
-            <button type="submit" class="btn btn-primary submit-btn">
-              Send Message →
-            </button>
-            <div class="form-msg" id="formMsg"></div>
-          </form>
+            <div class="field">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" required>
+            </div>
+            <div class="field full">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+            </div>
+            <div class="field full">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <div class="field full">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <p class="form-msg" id="formMsg"></p>
+            </div>
+          </div>
+        </form>
         </div>
       </div>
     </section>
@@ -576,7 +578,8 @@
 
 
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="emailjs.js"></script>
+  <script src="script.js" defer></script>
   </body>
 </html>
