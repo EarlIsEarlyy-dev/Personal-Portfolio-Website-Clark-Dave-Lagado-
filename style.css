@@ -976,9 +976,8 @@ nav {
   justify-content: center;
   transition: 0.2s;
 }
-.social-row a:hover {
-  background: var(--coral);
-}
+
+
 .social-row svg {
   width: 16px;
   height: 16px;
